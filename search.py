@@ -5,7 +5,7 @@ class Borders:
         self.start = start
         self.end = end
 
-def search(string : str, k : str) -> str:
+def search(string : str, lookup : str) -> str:
     all_of_borders = []
     j = 0 
 
